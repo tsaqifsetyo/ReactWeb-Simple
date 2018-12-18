@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './Home.css';
+import './Menu.css';
 
-class Home extends Component {
+class Menu extends Component {
   render() {
     return (
       <div className="Hom">
@@ -27,4 +27,4 @@ ini boddy
     );
   }
 }
-export default Home;
+export default Menu;
