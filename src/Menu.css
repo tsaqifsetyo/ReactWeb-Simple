@@ -1,23 +1,24 @@
-, *body{
+ *body{
     margin: 0;
     padding: 0;
 }
 
 nav{
     position: relative;
+    margin-top: 0px; 
     width: 100%;
     text-align: center;
     align-items: center;
     height: 60px;
-    background-color: #282c34;
+    background-color: #1149a3;
     box-shadow: #888;
 }
 nav ul{
     position: relative;
-    top: 10px;
+    top: 20px;
     margin: 0;
-    float: right;
-    right: 10%;
+    float: left;
+    left: 0%;
 }
 nav ul li{
     float: left;
@@ -41,7 +42,7 @@ nav ul li a:hover{
 }
 
 .Hom-header {
-  background-color: #282c34;
+  background-color: #1149a3;
   height: 10vh;
   display: flex;
   align-items: center;
@@ -71,5 +72,5 @@ nav ul li a:hover{
 
 .Hom-link {
   align-items: center;
-  color: #61dafb;
+  color: #000000;
 }
